@@ -1,0 +1,43 @@
+Here are the summaries of the pre-training and fine-tuning procedures for NLP models in concise bullet points:
+
+**Pre-Training Procedures:**
+
+* Use large amounts of unlabelled text data, such as one billion words, to learn general language patterns.
+* Pre-training can be used for semi-supervised sequence modeling, where the model is trained on both labelled and unlabelled data from different sources.
+* Multitask learning can be used to improve performance on multiple related tasks simultaneously by sharing knowledge across tasks.
+
+**Fine-Tuning Procedures:**
+
+* Adapt a pre-trained model to a specific task or dataset with labeled data.
+* Use techniques such as:
+	+ Weighted sum of last four hidden layers
+	+ Concatenation of last four hidden layers
+	+ Feature-based approach: extracts activations from one or more layers without fine-tuning BERT parameters, using them as input to a BiLSTM before classification.
+
+**Common Goals:**
+
+* Leverage the knowledge gained during pre-training and adapt it to a particular NLP task.
+* Improve performance on multiple related tasks simultaneously by sharing knowledge across tasks.
+* Use techniques such as semi-supervised sequence learning, multitask learning, and supervised learning of universal sentence representations.
+
+**Training Hyperparameters:**
+
+* Use Adam optimizer with learning rate of 1e-4, β1 = 0.9, β2 = 0.999
+* Batch size: 256 sequences (128,000 tokens/batch)
+* Number of epochs: approximately 40 over a 3.3 billion word corpus
+* Dropout probability: 0.1 on all layers
+
+**Pre-training Convergence:**
+
+* MLM pre-training convergence is slower than LTR pre-training due to only predicting 15% of words per batch.
+* MLM model outperforms LTR model in absolute accuracy after a short period.
+
+**Fine-tuning Strategies:**
+
+* Using the MASK strategy during fine-tuning can be problematic, especially with feature-based approaches.
+* RND strategy performs worse than the proposed strategy.
+
+**Feature-Based Approach:**
+
+* Feature-based approach involves concatenating last 4 layers of BERT as features.
+* This approach is robust to different masking strategies.

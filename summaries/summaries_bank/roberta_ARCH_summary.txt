@@ -1,0 +1,20 @@
+**Dynamic Masking:**
+* RoBERTa introduces dynamic masking during training, ensuring unique masking patterns for each epoch, which improves model generalization compared to static masking.
+
+**Model Input Optimization:**
+* RoBERTa removes the Next Sentence Prediction (NSP) objective and replaces segment-pair inputs with full-sentence inputs, optimizing the model for contextual understanding.
+
+**Batch Size and Training:**
+* Large mini-batches (up to 8,000 sequences) and increased training steps (up to 500,000) significantly enhance performance, leveraging computational efficiency for robust optimization.
+
+**Tokenization Enhancements:**
+* The model employs a byte-level Byte Pair Encoding (BPE) tokenizer with a 50K vocabulary size, facilitating compatibility with diverse text inputs.
+
+**Dataset Expansion:**
+* Trained on over 160GB of text data, including BOOKCORPUS, Wikipedia, CC-NEWS, OpenWebText, and Stories, RoBERTa benefits from improved data diversity and scale.
+
+**Pre-training Objectives:**
+* Retains the masked language modeling objective, proving its competitive edge over newer pre-training methods when combined with improved training practices.
+
+**Evaluation Benchmarks:**
+* Demonstrates state-of-the-art performance across benchmarks like GLUE, SQuAD, and RACE, showcasing the efficacy of architectural and procedural refinements.

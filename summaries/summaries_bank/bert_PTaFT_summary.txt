@@ -1,0 +1,21 @@
+Here are concise bullet points summarizing pre-training and fine-tuning procedures for NLP models:
+
+• **Pre-training**: Train a model on large amounts of unlabeled text data using joint conditioning on both left and right context, with objectives such as Masked LM and Next Sentence Prediction.
+
+• **Fine-tuning**: Adjust pre-trained model weights to adapt to new tasks or datasets with minimal task-specific parameters, often using cross entropy loss for masked tokens and custom objectives like NSP.
+
+• **Pre-training procedures**:
+  • Use large amounts of unlabelled text data (e.g., one billion words) to learn general language patterns.
+  • Pre-training can be used for semi-supervised sequence modeling, multitask learning, and supervised learning of universal sentence representations.
+
+• **Fine-tuning procedures**:
+  • Adapt a pre-trained model to a specific task or dataset with labeled data.
+  • Use techniques such as weighted sum of last four hidden layers, concatenation of last four hidden layers, and feature-based approach to extract activations from one or more layers without fine-tuning BERT parameters.
+
+• **Pre-training objectives**: Masked LM (Masked Language Modeling) and Next Sentence Prediction (NSP), among others.
+
+• **Fine-tuning objectives**: Cross entropy loss for masked tokens, custom objectives such as NSP, and techniques like feature-based approach to leverage pre-trained knowledge.
+
+• **Data augmentation**: Techniques used to increase the size of training datasets, including masking a percentage of input tokens at random.
+
+• **Hyperparameters**: Learning rate (5e-5 or 2e-5), batch size (32 or 48), and use of additional parameters such as start vector S and end vector E during fine-tuning.

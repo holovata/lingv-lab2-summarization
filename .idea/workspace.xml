@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8891cd2f-76ac-4516-a8c0-8342fb7c383a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "holovata"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/holovata/lingv-lab2-summarization.git",
+    "accountId": "c75db887-3fac-4da6-b3fc-98a89cda9dfd"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2oRKlaxtjVBL0LzpFUALIddkd47" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.chunks_summary.executor": "Run",
+    "Python.database_utils.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.map_reduce.executor": "Run",
+    "Python.map_reduce_graph.executor": "Run",
+    "Python.summary_generalizer.executor": "Run",
+    "Python.summary_generalizer_NEW.executor": "Run",
+    "Python.topic_database.executor": "Run",
+    "Python.topic_generalizer.executor": "Run",
+    "Python.topic_identifier.executor": "Run",
+    "Python.topic_search.executor": "Run",
+    "Python.try2.executor": "Run",
+    "Python.try3.executor": "Run",
+    "Python.try4.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Work/mi41/linguistics/lab2_summarization/lingv_lab2_smmarization/summaries"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\mi41\linguistics\lab2_summarization\lingv_lab2_smmarization\summaries" />
+      <recent name="C:\Work\mi41\linguistics\lab2_summarization\lingv_lab2_smmarization\topics" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\mi41\linguistics\lab2_summarization\lingv_lab2_smmarization\saved_history\data\user_texts" />
+      <recent name="C:\Work\mi41\linguistics\lab2_summarization\lingv_lab2_smmarization\saved_history\data" />
+      <recent name="C:\Work\mi41\linguistics\lab2_summarization\lingv_lab2_smmarization\summaries\summaries_bank" />
+      <recent name="C:\Work\mi41\linguistics\lab2_summarization\lingv_lab2_smmarization" />
+      <recent name="C:\Work\mi41\linguistics\lab2_summarization\lingv_lab2_smmarization\topics" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8891cd2f-76ac-4516-a8c0-8342fb7c383a" name="Changes" comment="" />
+      <created>1730827099345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730827099345</updated>
+    </task>
+    <task id="LOCAL-00001" summary="working on topic extraction">
+      <option name="closed" value="true" />
+      <created>1731091857061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731091857061</updated>
+    </task>
+    <task id="LOCAL-00002" summary="working on topic extraction">
+      <option name="closed" value="true" />
+      <created>1731091892285</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731091892285</updated>
+    </task>
+    <task id="LOCAL-00003" summary="final touches">
+      <option name="closed" value="true" />
+      <created>1731518112557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731518112557</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working on topic extraction" />
+    <MESSAGE value="final touches" />
+    <option name="LAST_COMMIT_MESSAGE" value="final touches" />
+  </component>
+</project>
